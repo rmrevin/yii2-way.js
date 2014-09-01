@@ -1,0 +1,28 @@
+{
+	"name": "rmrevin/yii2-wayjs",
+	"description": "Way.js Asset Bundle for Yii2",
+	"keywords": ["yii", "way", "way.js", "asset", "bundle"],
+	"type": "yii2-extension",
+	"license": "GPL-3.0",
+	"minimum-stability": "dev",
+	"support": {
+		"issues": "https://github.com/rmrevin/yii2-wayjs/issues",
+		"source": "https://github.com/rmrevin/yii2-wayjs"
+	},
+	"authors": [
+		{
+			"name": "Roman Revin",
+			"email": "xgismox@gmail.com",
+			"homepage": "http://rmrevin.ru/"
+		}
+	],
+	"require": {
+		"yiisoft/yii2": "*",
+		"rmrevin/way.js": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"rmrevin\\yii\\wayjs\\": ""
+		}
+	}
+}
