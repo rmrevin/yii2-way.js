@@ -18,4 +18,4 @@ class AssetBundle extends \yii\web\AssetBundle
     public $js = [
         'way.js',
     ];
-} 
+}
