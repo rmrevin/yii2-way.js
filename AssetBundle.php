@@ -13,9 +13,9 @@ namespace rmrevin\yii\wayjs;
 class AssetBundle extends \yii\web\AssetBundle
 {
 
-    public $sourcePath = '@bower/way.js/way.js';
+    public $sourcePath = '@bower/way.js';
 
     public $js = [
-        'way.min.js',
+        'way.js',
     ];
 } 
